@@ -42,30 +42,61 @@
         "id": "5",
         "displayName": "BMW M50NV PNP",
         "make": "BMW",
-        "firmware": 201810,
+        "firmware": 202103,
         "provider": "Pazi88",
         "type": "Stock",
         "description": "",
-        "filename": "BMW_M50NV_PnP.msq"
+        "filename": "M50NV_PnP.msq"
     },
     {
         "id": "6",
         "displayName": "BMW M50TU PNP",
         "make": "BMW",
-        "firmware": 201810,
+        "firmware": 202103,
         "provider": "Pazi88",
         "type": "Stock",
         "description": "",
-        "filename": "BMW_M50TU_PnP.msq"
+        "filename": "M50TU_PnP.msq"
     },
     {
         "id": "7",
         "displayName": "BMW M52 PNP",
         "make": "BMW",
-        "firmware": 201810,
+        "firmware": 202103,
         "provider": "Pazi88",
         "type": "Stock",
         "description": "",
-        "filename": "BMW_M52_PnP.msq"
+        "filename": "M52_PnP.msq"
     },
+    {
+      "id": "8",
+      "displayName": "BMW M43 PNP",
+      "make": "BMW",
+      "firmware": 202103,
+      "provider": "Pazi88",
+      "type": "Stock",
+      "description": "",
+      "filename": "M43_PnP.msq"
+    },
+    {
+      "id": "9",
+      "displayName": "BMW M60 PNP",
+      "make": "BMW",
+      "firmware": 202103,
+      "provider": "Pazi88",
+      "type": "Stock",
+      "description": "",
+      "filename": "M60_PnP.msq"
+    },
+    {
+      "id": "10",
+      "displayName": "BMW M52TU PNP",
+      "make": "BMW",
+      "firmware": 202103,
+      "provider": "Pazi88",
+      "type": "Stock",
+      "description": "",
+      "filename": "M52TU_PnP.msq"
+    },
+
 ]
