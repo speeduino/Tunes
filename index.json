@@ -3,8 +3,8 @@
         "displayName": "Speeduino Generic base tune",
         "make": "Generic",
         "firmware": 201801,
-        "provider": "Official",
-        "type": "Modified",
+        "provider": "Speeduino",
+        "type": "Stock",
         "description": "This is the generic basic tune for Speeduino v0.4 and v0.3. It is not meant to work out of the box for every vehicle, but will give all settings a sane value",
         "filename": "Speeduino%20base%20tune.msq"
     },
@@ -13,9 +13,9 @@
         "displayName": "Miata / MX5 89-95 PNP",
         "make": "Mazda",
         "firmware": 201801,
-        "provider": "Official",
+        "provider": "Speeduino",
         "type": "Stock",
-        "description": "Tune for use with the official PNP units on 1989-1995 NA6 and NA8 Miata + MX5",
+        "description": "Tune for use with the Speeduino PNP units on 1989-1995 NA6 and NA8 Miata + MX5",
         "filename": "NA6%20PNP%20base%20tune.msq"
     },
     {
@@ -23,9 +23,9 @@
         "displayName": "Miata / MX5 96-97 PNP",
         "make": "Mazda",
         "firmware": 201909,
-        "provider": "Official",
+        "provider": "Speeduino",
         "type": "Stock",
-        "description": "Tune for use with the official PNP units on 1996-1997 NA8 Miata + MX5",
+        "description": "Tune for use with the Speeduino PNP units on 1996-1997 NA8 Miata + MX5",
         "filename": "NA8%20PNP%20base%20tune.msq"
     },
      {
@@ -33,9 +33,9 @@
         "displayName": "Miata / MX5 01-05 PNP",
         "make": "Mazda",
         "firmware": 201909,
-        "provider": "Official",
+        "provider": "Speeduino",
         "type": "Stock",
-        "description": "Tune for use with the official PNP units on 2001-2005 NB8B Miata + MX5",
+        "description": "Tune for use with the Speeduino PNP units on 2001-2005 NB8B Miata + MX5",
         "filename": "NB8B%20PNP%20base%20tune.msq"
     },
     {
@@ -44,28 +44,28 @@
         "make": "BMW",
         "firmware": 201810,
         "provider": "Pazi88",
-        "type": "Modified",
+        "type": "Stock",
         "description": "",
         "filename": "BMW_M50NV_PnP.msq"
     },
     {
-        "id": "5",
+        "id": "6",
         "displayName": "BMW M50TU PNP",
         "make": "BMW",
         "firmware": 201810,
         "provider": "Pazi88",
-        "type": "Modified",
+        "type": "Stock",
         "description": "",
         "filename": "BMW_M50TU_PnP.msq"
     },
     {
-        "id": "5",
+        "id": "7",
         "displayName": "BMW M52 PNP",
         "make": "BMW",
         "firmware": 201810,
         "provider": "Pazi88",
-        "type": "Modified",
+        "type": "Stock",
         "description": "",
         "filename": "BMW_M52_PnP.msq"
-    }
+    },
 ]
