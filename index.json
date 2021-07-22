@@ -98,5 +98,13 @@
       "description": "",
       "filename": "M52TU_PnP.msq"
     },
-
-]
+    {
+    "id": "11",
+    "displayName": "MX5 EUDM 1.6 94-97 PNP",
+    "make": "Mazda",
+    "firmware": 202103,
+    "provider": "pani-dotcom",
+    "type": "Stock EUDM NA 1.6",
+    "description": "Tune for use with the Speeduino PNP units on 1994-97 1.6 NA6 EUDM MX5",
+    "filename": "EUDM%20PNP%20base%20tune.msq"
+    },
