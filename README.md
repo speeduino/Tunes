@@ -31,6 +31,7 @@ When adding your tune, 2 main steps are needed:
     "firmware": 201909,
     "provider": "Speeduino",
     "type": "Stock",
+    "board": "Miata NA8 PNP",
     "description": "Tune for use with the Speeduino PNP units on 1996-1997 NA8 Miata + MX5",
     "filename": "NA8%20PNP%20base%20tune.msq"
 },
@@ -44,6 +45,7 @@ When adding your tune, 2 main steps are needed:
 * firmware: The firmware version that the tune was created with
 * provider: A username that will be shown in SpeedyLoader for who authored the tune
 * type: Either `Stock` or `Modified` depending on whether the tune is for a stock engine setup or a modified one
+* board: The hardware design that the tune was developed on (Eg v0.4, NA6 PNP etc)
 * description: A longer description of the tune. If it is for a modified engine, please describe in detail the modifications you've made
 * filename: The filename of the tune
 
