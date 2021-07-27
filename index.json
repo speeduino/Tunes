@@ -108,5 +108,16 @@
       "board": "DIY-EFI CORE4",
       "filename": "M52TU_PnP.msq"
     },
+    {
+      "id": "11",
+      "displayName": "4G93",
+      "make": "Mitsubishi",
+      "firmware": 202103,
+      "provider": "Steven Chua",
+      "type": "Stock",
+      "description": "Stock 4G93 tune with support for limited boost. Some adjustment of CAS maybe needed to align with the trigger angle used",
+      "board": "v0.4",
+      "filename": "4g93_stock.msq"
+    },
 
 ]
