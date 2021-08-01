@@ -119,5 +119,15 @@
       "board": "v0.4",
       "filename": "4g93_stock.msq"
     },
-
+{
+      "id": "12",
+      "displayName": "K4M",
+      "make": "Renault",
+      "firmware": 202103,
+      "provider": "Panos Kagiantas",
+      "type": "Stock",
+      "description": "K4M Clio Ph2 Mk2, Converted to Cable throttle from dbw, spark and fuel control on the speedy, wired in parallel with the stock ecu, stock sensors",
+      "board": "no2c",
+      "filename": "clio.msq"
+    },
 ]
