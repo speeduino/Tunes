@@ -31,6 +31,17 @@
         "description": "Tune for use with the Speeduino PNP units on 1996-1997 NA8 Miata + MX5",
         "filename": "NA8%20PNP%20base%20tune.msq"
     },
+    {
+        "id": "12",
+        "displayName": "Miata / MX5 96-98 PNP (SpeedyEFI)",
+        "make": "Mazda",
+        "firmware": 202103,
+        "provider": "SpeedyEFI",
+        "type": "Stock",
+        "board": "UA4C",
+        "description": "Tune for use with the SpeedyEFI UA4C PNP",
+        "filename": "Miata_PNP96-98_SpeedyEFI.msq.msq"
+    },
      {
         "id": "4",
         "displayName": "Miata / MX5 01-05 PNP",
