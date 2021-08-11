@@ -40,7 +40,7 @@
         "type": "Stock",
         "board": "UA4C",
         "description": "Tune for use with the SpeedyEFI UA4C PNP",
-        "filename": "Miata_PNP96-98_SpeedyEFI.msq.msq"
+        "filename": "Miata_PNP96-98_SpeedyEFI.msq"
     },
      {
         "id": "4",
