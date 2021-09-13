@@ -1868,7 +1868,7 @@
         <constant digits="1" name="vvtCLminDuty" units="%">20.0</constant>
         <constant digits="1" name="vvtCLmaxDuty" units="%">80.0</constant>
         <constant name="vvt2Pin">"Board Default"</constant>
-        <constant name="vvt2Enabled">"On"</constant>
+        <constant name="vvt2Enabled">"Off"</constant>
         <constant name="TrigEdgeThrd">"RISING"</constant>
         <constant cols="1" digits="0" name="fuelTempBins" rows="6" units="C">
          215.0 
