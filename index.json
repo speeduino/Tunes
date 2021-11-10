@@ -140,6 +140,5 @@
       "description": "Stock 4G93 tune with support for limited boost. Some adjustment of CAS maybe needed to align with the trigger angle used",
       "board": "v0.4",
       "filename": "4g93_stock.msq"
-    },
-
+    }
 ]
