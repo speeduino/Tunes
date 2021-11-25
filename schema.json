@@ -1,0 +1,46 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string"
+            },
+            "displayName": {
+                "type": "string"
+            },
+            "make": {
+                "type": "string"
+            },
+            "firmware": {
+                "type": "integer"
+            },
+            "provider": {
+                "type": "string"
+            },
+            "type": {
+                "type": "string"
+            },
+            "board": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            },
+            "filename": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "id",
+            "displayName",
+            "make",
+            "firmware",
+            "provider",
+            "type",
+            "board",
+            "description",
+            "filename"
+        ]
+    }
+}

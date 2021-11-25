@@ -1,0 +1,17 @@
+name: Validate index.json
+
+on: [push]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Validate index.json
+        uses: nhalstead/validate-json-action@0.1.3
+        with:
+          schema: ./schema.json
+          jsons: ./index.json
+
