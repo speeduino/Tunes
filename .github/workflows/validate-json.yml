@@ -1,6 +1,6 @@
 name: Validate index.json
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   validate:

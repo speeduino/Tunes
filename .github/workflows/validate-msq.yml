@@ -1,0 +1,17 @@
+name: Validate MSQ
+
+on: [push, pull_request]
+
+jobs:
+  xmllint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Install xmllint
+      run: |
+        sudo apt-get -y --no-install-recommends install libxml2-utils
+    - name: Validate MSQ files
+      run: |
+        find -type f -name "*.msq" -exec xmllint --schema ./schema.xsd --noout {} +
