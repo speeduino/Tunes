@@ -46,7 +46,7 @@
         "id": "13",
         "displayName": "Miata / MX5 99-00 PNP (SpeedyEFI)",
         "make": "Mazda",
-        "firmware": 202103,
+        "firmware": 202207,
         "provider": "SpeedyEFI",
         "type": "Stock",
         "board": "UA4C",
