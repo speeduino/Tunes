@@ -1,6 +1,10 @@
 name: Validate MSQ
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   xmllint:
@@ -8,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v3
     - name: Install xmllint
       run: |
         sudo apt-get -y --no-install-recommends install libxml2-utils
