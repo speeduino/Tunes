@@ -15,9 +15,15 @@ The Speeduino project is a flexible, fully featured Engine Management Systems (E
 This repositiory contains official and user contributed tune files that can then be downloaded through [SpeedyLoader](https://github.com/speeduino/SpeedyLoader)
 
 ## How do I contribute a tune?
-This library contains both official tunes as well as user contributed ones. If you'd like to contribute your tune, a Pull Request can be submitted against this repository to get it added. 
+This library contains both official tunes as well as user contributed ones. If you'd like to contribute your tune, a Pull Request or Issue can be submitted against this repository to get it added. 
 
 Please note that all tunes submitted are released under the [Creative Commons CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). 
+
+### As an issue
+
+If you're not comfortable with creating a Pull Request, simply create a new Issue (https://github.com/speeduino/Tunes/issues) and attach your tune file. Make sure to add details about your tune such as the specific make/model, whether it is for a stock vehicle or what the modification details are, which firmwar the tune was created for etc. 
+
+### As a Pull Request
 
 When adding your tune, 2 main steps are needed:
 
@@ -37,7 +43,7 @@ When adding your tune, 2 main steps are needed:
 },
 ```
 
-### Field List:
+#### Field List:
 
 * id: This should be the next number from the previous last entry in the file
 * displayName: A brief description of the engine / car your tune is for. If it is a non-stock tune then a very brief description of the modifications should be added. Eg: `Miata / MX5 96-97 PNP with Turbo`
