@@ -2,7 +2,7 @@
         "id": "1",
         "displayName": "Speeduino Generic base tune",
         "make": "Generic",
-        "firmware": 202207,
+        "firmware": 202305,
         "provider": "Speeduino",
         "type": "Stock",
         "board": "v0.4",
