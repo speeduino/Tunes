@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Dev 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Fri May 26 16:59:16 AEST 2023"/>
-<versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2023.05" nPages="15" signature="speeduino 202305"/>
+<bibliography author="TunerStudio MS Dev 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Oct 06 12:08:48 AEDT 2023"/>
+<versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2023.10" nPages="15" signature="speeduino 202310"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -606,7 +606,7 @@
 <constant digits="0" name="dfcoMinCLT" units="C">50.0</constant>
 <constant name="vssMode">"Off"</constant>
 <constant name="vssPin">"Board Default"</constant>
-<constant digits="0" name="vssPulsesPerKm" units="pulses">4000.0</constant>
+<constant digits="0" name="vssPulsesPerKm" units="pulses">500.0</constant>
 <constant digits="0" name="vssSmoothing" units="%">50.0</constant>
 <constant digits="1" name="vssRatio1" units="km/h per 1000rpm">0.0</constant>
 <constant digits="1" name="vssRatio2" units="km/h per 1000rpm">0.0</constant>
@@ -1459,6 +1459,7 @@
 <constant name="enable_secondarySerial">"Disable"</constant>
 <constant name="intcan_available">"Disable"</constant>
 <constant name="enable_intcan">"Disable"</constant>
+<constant name="secondarySerialProtocol">"Generic".</constant>
 <constant name="caninput_sel0a">"Off"</constant>
 <constant name="caninput_sel0b">"Digital_local"</constant>
 <constant name="caninput_sel0extsourcea">"Via Secondary Serial"</constant>
@@ -2411,7 +2412,27 @@
 <constant name="airConUnused4">"3"</constant>
 <constant digits="0" name="airConIdleUpRPMAdder" units="Added Target RPM">200.0</constant>
 <constant digits="1" name="airConPwmFanMinDuty" units="%">30.0</constant>
-<constant cols="1" digits="0" name="Unused15_98_255" rows="158" units="%">
+<constant cols="1" digits="0" name="rollingProtRPMDelta" rows="4" units="RPM">
+         -250.0 
+         -200.0 
+         -100.0 
+         -50.0 
+      </constant>
+<constant cols="1" digits="0" name="rollingProtCutPercent" rows="4" units="%">
+         25.0 
+         40.0 
+         75.0 
+         90.0 
+      </constant>
+<constant cols="1" digits="0" name="Unused15_98_255" rows="150" units="%">
+         231.0 
+         236.0 
+         246.0 
+         251.0 
+         25.0 
+         40.0 
+         75.0 
+         90.0 
          255.0 
          255.0 
          255.0 
@@ -2554,22 +2575,16 @@
          255.0 
          255.0 
          255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
-         255.0 
+      </constant>
+<constant cols="1" digits="0" name="UNALLOCATED_TOP_14" rows="8" units="RAW">
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
       </constant>
 </page>
 <settings Comment="These setting are only used if this msq is opened without a project.">
