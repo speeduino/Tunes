@@ -1,0 +1,11 @@
+{
+    "id": "GrgMdj1987",
+    "displayName": "SUZUKI G13BB",
+    "make": "SUZUKI/Chevy",
+    "firmware": 202202,
+    "provider": "Speeduino",
+    "type": "Stock",
+    "board": "Speeduino 0.4.4",
+    "description": "Tune for use with the Speeduino 0.4.4",
+    "filename": "g13bb SUZUKI.msq"
+},
