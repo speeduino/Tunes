@@ -63,7 +63,7 @@ In addition the manual referenced above, Speeduino has a large and very vibrant 
 
 * [Speeduino Manual](https://wiki.speeduino.com)
 * [Speeduino Forum](https://speeduino.com/forum) 
-* [Slack](https://speeduino.com/home/community/slack)
+* [Discord](https://speeduino.com/home/community/discord)
 * [Facebook](https://www.facebook.com/groups/191918764521976/)
 
 ## Contributors
