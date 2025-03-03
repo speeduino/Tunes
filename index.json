@@ -140,5 +140,17 @@
       "description": "Stock 4G93 tune with support for limited boost. Some adjustment of CAS maybe needed to align with the trigger angle used",
       "board": "v0.4",
       "filename": "4g93_stock.msq"
+    },
+     {
+      "id": "12",
+      "displayName": "A4 B5 1.8t",
+      "make": "Audi",
+      "firmware": 202501,
+      "provider": "N/A",
+      "type": "Stock",
+      "description": "Stock Audi A4 B5 1.8t engine",
+      "board": "UA4C",
+      "filename": "Audi_A4_B5_1.8t.msq"
     }
+]
 ]
